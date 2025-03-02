@@ -3,6 +3,7 @@
   imports = [
     ./lsp.nix
     ./lsp-format.nix
+    ./lsp-lines.nix
     ./which-key.nix
     ./surround.nix
     ./autopairs.nix
