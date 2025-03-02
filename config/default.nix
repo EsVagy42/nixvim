@@ -9,6 +9,7 @@
     ./treesitter.nix
     ./treesitter-context.nix
     ./treesitter-textobjects.nix
+    ./telescope.nix
   ];
   opts = {
     number = true;
