@@ -6,6 +6,8 @@
     ./which-key.nix
     ./surround.nix
     ./autopairs.nix
+    ./treesitter.nix
+    ./treesitter-context.nix
   ];
   opts = {
     number = true;
