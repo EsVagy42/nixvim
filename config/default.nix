@@ -15,4 +15,5 @@
     relativenumber = true;
     shiftwidth = 2;
   };
+  globals = { mapleader = " "; };
 }
