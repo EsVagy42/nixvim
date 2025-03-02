@@ -11,6 +11,7 @@
     ./treesitter-textobjects.nix
     ./telescope.nix
     ./web-devicons.nix
+    ./undotree.nix
   ];
   opts = {
     number = true;
