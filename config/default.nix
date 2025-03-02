@@ -10,6 +10,7 @@
     ./treesitter-context.nix
     ./treesitter-textobjects.nix
     ./telescope.nix
+    ./web-devicons.nix
   ];
   opts = {
     number = true;
