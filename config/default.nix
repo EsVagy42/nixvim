@@ -8,6 +8,7 @@
     ./autopairs.nix
     ./treesitter.nix
     ./treesitter-context.nix
+    ./treesitter-textobjects.nix
   ];
   opts = {
     number = true;
