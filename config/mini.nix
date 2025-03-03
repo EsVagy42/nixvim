@@ -60,7 +60,6 @@
 		try_as_border = true;
 	      };
 	  };
-        map = { };
         notify = { };
         starter = { };
         statusline = { };
