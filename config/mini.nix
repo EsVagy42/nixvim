@@ -44,7 +44,11 @@
 	  };
         git = { };
         jump = { };
-        jump2d = { };
+        jump2d = {
+	    view = {
+		n_steps_ahead = 10;
+	      };
+	  };
         misc = { };
         pick = { };
         sessions = { };
