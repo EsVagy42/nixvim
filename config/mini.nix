@@ -44,11 +44,7 @@
 	  };
         git = { };
         jump = { };
-        jump2d = {
-	    view = {
-		n_steps_ahead = 10;
-	      };
-	  };
+        jump2d = { };
         pick = { };
         sessions = { };
         visits = { };
