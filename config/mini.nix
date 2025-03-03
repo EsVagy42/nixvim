@@ -36,7 +36,12 @@
         bufremove = { };
         diff = { };
         extra = { };
-        files = { };
+        files = {
+	    windows = {
+		preview = true;
+		width_preview = 50;
+	      };
+	  };
         git = { };
         jump = { };
         jump2d = { };
