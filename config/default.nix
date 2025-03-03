@@ -9,6 +9,7 @@
     ./lsp-format.nix
     ./lsp.nix
     ./dap.nix
+    ./dap-ui.nix
   ];
   opts = {
     number = true;
