@@ -34,7 +34,6 @@
 	  };
         bracketed = { };
         bufremove = { };
-        deps = { };
         diff = { };
         extra = { };
         files = { };
