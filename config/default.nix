@@ -1,6 +1,14 @@
 {
   # Import all your configuration modules here
-  imports = [ ./mini.nix ];
+  imports = [
+  	./mini.nix
+	./undotree.nix
+	./treesitter-textobjects.nix
+	./treesitter-context.nix
+	./treesitter.nix
+	./lsp-format.nix
+	./lsp.nix
+  ];
   opts = {
     number = true;
     relativenumber = true;
