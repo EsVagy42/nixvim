@@ -49,7 +49,6 @@
 		n_steps_ahead = 10;
 	      };
 	  };
-        misc = { };
         pick = { };
         sessions = { };
         visits = { };
