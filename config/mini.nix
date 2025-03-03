@@ -55,7 +55,11 @@
         animate = { };
         cursorword = { };
         icons = { };
-        indentscope = { };
+        indentscope = {
+	    options = {
+		try_as_border = true;
+	      };
+	  };
         map = { };
         notify = { };
         starter = { };
