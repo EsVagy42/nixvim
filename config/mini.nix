@@ -78,7 +78,7 @@ miniclue.setup({
     { mode = 'x', keys = 'g' },
 
     -- Marks
-    { mode = 'n', keys = "'" },
+   { mode = 'n', keys = "'" },
     { mode = 'n', keys = '`' },
     { mode = 'x', keys = "'" },
     { mode = 'x', keys = '`' },
@@ -95,6 +95,19 @@ miniclue.setup({
     -- `z` key
     { mode = 'n', keys = 'z' },
     { mode = 'x', keys = 'z' },
+
+    { mode = 'n', keys = 's'},
+    { mode = 'x', keys = 's'},
+
+    { mode = 'n', keys = ']'},
+    { mode = 'x', keys = ']'},
+    { mode = 'n', keys = '['},
+    { mode = 'x', keys = '['},
+
+    { mode = 'n', keys = 'i'},
+    { mode = 'x', keys = 'i'},
+    { mode = 'n', keys = 'a'},
+    { mode = 'x', keys = 'a'},
   },
 
   clues = {
