@@ -64,7 +64,6 @@
         starter = { };
         statusline = { };
         tabline = { };
-        trailspace = { };
         doc = { };
         fuzzy = { };
         test = { };
