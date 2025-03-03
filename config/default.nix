@@ -8,6 +8,7 @@
     ./treesitter.nix
     ./lsp-format.nix
     ./lsp.nix
+    ./dap.nix
   ];
   opts = {
     number = true;
