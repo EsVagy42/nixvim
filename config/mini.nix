@@ -64,9 +64,6 @@
         starter = { };
         statusline = { };
         tabline = { };
-        doc = { };
-        fuzzy = { };
-        test = { };
       };
 
       luaConfig.post = ''
