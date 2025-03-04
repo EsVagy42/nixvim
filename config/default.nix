@@ -10,6 +10,7 @@
     ./lsp.nix
     ./dap.nix
     ./dap-ui.nix
+    ./dap-virtual-text.nix
   ];
   opts = {
     number = true;
