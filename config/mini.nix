@@ -15,7 +15,7 @@
         surround = { };
         basics = {
           options = {
-            basic = true;
+            basic = false;
             extra_ui = true;
             win_borders = "default";
           };
