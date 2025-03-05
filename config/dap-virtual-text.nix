@@ -5,8 +5,8 @@
       settings = {
         all_frames = true;
         all_references = true;
-        commented = true;
         only_first_definition = false;
+        virt_text_pos = "eol";
       };
     };
   };
