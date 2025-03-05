@@ -16,6 +16,8 @@
     number = true;
     relativenumber = true;
     shiftwidth = 2;
+    smartindent = false;
+    cindent = true;
   };
   globals = { mapleader = " "; };
   extraConfigLua = ''
