@@ -39,7 +39,7 @@
                 	    vim.keymap.set("n", "<leader>dl", function() require("dap").set_breakpoint(nil, nil, vim.fn.input('Log point message:')) end, {desc = "Debug set logpoint"})
                 	    vim.keymap.set("n", "<leader>dr", function() require("dap").repl.open() end, {desc = "Debug repl open"})
                 	    vim.keymap.set("n", "<leader>dp", function() require("dap").run_last() end, {desc = "Debug run last"})
-    	    vim.keymap.set("n", "<leader>dc", function () dapui.close() end, {desc = "Close Dap-UI"})
+    	    vim.keymap.set("n", "<leader>dc", function () dapui.close() require("dap").terminate() end, {desc = "Close Dap-UI"})
             	    vim.keymap.set("n", "<leader>a", "<cmd>lua vim.lsp.buf.code_action()<CR>", {desc = "Apply code action"})
         	    vim.keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<CR>", {desc = "Toggle undo tree"})
 
