@@ -11,6 +11,7 @@
     ./dap.nix
     ./dap-ui.nix
     ./dap-virtual-text.nix
+    ./competitest.nix
   ];
   opts = {
     number = true;
