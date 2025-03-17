@@ -117,6 +117,8 @@
                 	    {mode = 'n', keys = '<leader>p', desc = 'Pick'},
                 	    {mode = 'n', keys = '<leader>d', desc = 'Debug'},
         		    {mode = 'n', keys = '<leader>m', desc = 'Map'},
+        		    {mode = 'n', keys = '<leader>c', desc = 'Competitest'},
+        		    {mode = 'n', keys = '<leader>cr', desc = 'Competitest receive'},
                           },
 
                           window = {

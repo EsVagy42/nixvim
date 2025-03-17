@@ -50,6 +50,10 @@
     vim.keymap.set('n', '<Leader>mr', MiniMap.refresh, {desc = "Map refresh"})
     vim.keymap.set('n', '<Leader>ms', MiniMap.toggle_side, {desc = "Map toggle side"})
     vim.keymap.set('n', '<Leader>mt', MiniMap.toggle, {desc = "Map toggle"})
+    vim.keymap.set('n', '<Leader>ct', ":CompetiTest run<CR>", {desc = "Competitest run"})
+    vim.keymap.set('n', '<Leader>crt', ":CompetiTest receive testcases<CR>", {desc = "Receive testcases"})
+    vim.keymap.set('n', '<Leader>crp', ":CompetiTest receive problem<CR>", {desc = "Receive problem"})
+    vim.keymap.set('n', '<Leader>crc', ":CompetiTest receive contest<CR>", {desc = "Receive contest"})
 
     local imap_expr = function(lhs, rhs)
     vim.keymap.set('i', lhs, rhs, { expr = true })
