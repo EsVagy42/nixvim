@@ -8,7 +8,7 @@
         comment = { };
         completion = { };
         move = { };
-        operators = { };
+        operators = { exchange.prefix = "gX"; };
         pairs = { };
         snippets = { };
         splitjoin = { };
