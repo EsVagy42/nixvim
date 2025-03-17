@@ -54,6 +54,9 @@
     vim.keymap.set('n', '<Leader>crt', ":CompetiTest receive testcases<CR>", {desc = "Receive testcases"})
     vim.keymap.set('n', '<Leader>crp', ":CompetiTest receive problem<CR>", {desc = "Receive problem"})
     vim.keymap.set('n', '<Leader>crc', ":CompetiTest receive contest<CR>", {desc = "Receive contest"})
+    vim.keymap.set('n', '<Leader>ca', ":CompetiTest add_testcase<CR>", {desc = "Competitest add testcase"})
+    vim.keymap.set('n', '<Leader>ce', ":CompetiTest edit_testcase<CR>", {desc = "Competitest edit testcase"})
+    vim.keymap.set('n', '<Leader>cd', ":CompetiTest delete_testcase<CR>", {desc = "Competitest delete testcase"})
 
     local imap_expr = function(lhs, rhs)
     vim.keymap.set('i', lhs, rhs, { expr = true })
