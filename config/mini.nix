@@ -31,7 +31,12 @@
           };
           silent = false;
         };
-        bracketed = { };
+        bracketed = {
+          comment = {
+            suffix = "";
+            options = { };
+          };
+        };
         bufremove = { };
         diff = { };
         extra = { };
@@ -119,6 +124,8 @@
         		    {mode = 'n', keys = '<leader>m', desc = 'Map'},
         		    {mode = 'n', keys = '<leader>c', desc = 'Competitest'},
         		    {mode = 'n', keys = '<leader>cr', desc = 'Competitest receive'},
+                	    {mode = 'n', keys = '[c', desc = 'Diff backward'},
+                	    {mode = 'n', keys = ']c', desc = 'Diff forward'},
                           },
 
                           window = {
