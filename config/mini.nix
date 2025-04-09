@@ -8,7 +8,13 @@
         comment = { };
         completion = { };
         move = { };
-        operators = { exchange.prefix = "gX"; };
+        operators = {
+          exchange.prefix = "gX";
+          replace = {
+            prefix = "gR";
+            reindent_linewise = true;
+          };
+        };
         pairs = { };
         snippets = { };
         splitjoin = { };
