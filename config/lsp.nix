@@ -10,6 +10,7 @@
         lua_ls.enable = true;
 	html.enable = true;
 	cssls.enable = true;
+	pyright.enable = true;
       };
     };
   };
