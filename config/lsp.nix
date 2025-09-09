@@ -8,14 +8,19 @@
         nixd.enable = true;
         marksman.enable = true;
         lua_ls.enable = true;
-	html.enable = true;
-	cssls.enable = true;
-	pyright.enable = true;
-	rust_analyzer = {
-	  enable = true;
-	  installCargo = false;
-	  installRustc = false;
-	};
+        html.enable = true;
+        cssls.enable = true;
+        pyright.enable = true;
+        rust_analyzer = {
+          enable = true;
+          installCargo = false;
+          installRustc = false;
+        };
+        hls = {
+          enable = true;
+	  installGhc = false;
+        };
+        csharp_ls.enable = true;
       };
     };
   };
