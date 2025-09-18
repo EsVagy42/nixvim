@@ -18,7 +18,7 @@
         };
         hls = {
           enable = true;
-	  installGhc = false;
+	  installGhc = true;
         };
         csharp_ls.enable = true;
       };
