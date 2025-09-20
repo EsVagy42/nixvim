@@ -21,6 +21,16 @@
             ];
           };
         };
+        run_command = {
+          cs = {
+            exec = "dotnet";
+            args = [
+              "run"
+              "--project"
+              "$(ABSDIR)"
+            ];
+          };
+        };
       };
     };
   };
