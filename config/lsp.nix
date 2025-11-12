@@ -21,6 +21,9 @@
 	  installGhc = true;
         };
         csharp_ls.enable = true;
+	nushell = {
+	  enable = true;
+	};
       };
     };
   };
